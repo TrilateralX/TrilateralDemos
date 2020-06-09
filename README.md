@@ -75,7 +75,8 @@ Currently Trilateral has 2.5D WebGL examples, color and position animations
 
 svg path width along the length color change or width change examples, and some Lime and Heap examples, trilateral3 has mostly been tested against web but should work in C++ on mobile. Kha support will be added on haxe 4.2 release.
   
-You can find documentation on the latest version:
-https://nanjizal.github.io/trilateral3/pages/
-
-Project is still work in progress.
+You can find documentation on the latest version:  
+  
+https://nanjizal.github.io/trilateral3/pages/  
+  
+Project is still work in progress.  
