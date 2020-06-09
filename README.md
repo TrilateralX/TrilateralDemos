@@ -53,6 +53,12 @@ And I experimented with animating seven segment LED's and dot matrix displays.
   
 <img src="https://user-images.githubusercontent.com/20134338/84170434-9cfbde80-aa71-11ea-9cd7-7358a3b86db7.png" width="400">
 
+Added some support for extrusion of shapes this is using modified armory Iron Kha haxe example, this version shows debug triangles.
+
+<img src="https://user-images.githubusercontent.com/20134338/84172216-a8500980-aa73-11ea-91c9-246635b632a0.png" width="300">  
+  
+Added support for rendering with extrusion hxTrueType parser.  
+  
 ### Trilateral3  
   
 More recently I have totally refactored the whole code base creating a geom library and splitting up and decoupling the parts of Trilateral. Using Module Static functions and hopefully clean and simple code Trilateral3 was born. Image and gradient support has not yet been re-added.
