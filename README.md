@@ -48,5 +48,19 @@ Experimented with some FXG support
 Supported an approach to gradients similar to the image approach of uv, where shape is plotted and then UV's applied.
   
 <img src="https://user-images.githubusercontent.com/20134338/84169173-375b2280-aa70-11ea-9331-8dbafdba49fb.png" width="300">    
+    
+And I experimented with animating seven segment LED's and dot matrix displays.  
   
- 
+<img src="https://user-images.githubusercontent.com/20134338/84170434-9cfbde80-aa71-11ea-9cd7-7358a3b86db7.png" width="400">
+
+### Trilateral3  
+  
+More recently I have totally refactored the whole code base creating a geom library and splitting up and decoupling the parts of Trilateral. Using Module Static functions and hopefully clean and simple code Trilateral3 was born. Image and gradient support has not yet been re-added.
+
+<img src="https://user-images.githubusercontent.com/20134338/84171070-480c9800-aa72-11ea-99ea-dca81b5a9a4a.png" width="300">  
+  
+Trilateral3 provides decoupling so that the data structure for holding triangles ( nominanlly a interlaced Float32Array ) can be other structures. 
+
+Currently Trilateral has 2.5D WebGL examples, color and position animations, svg path width along the length color change or width change examples, and some Lime and Heap examples. Kha will be added on haxe4.2 release.
+  
+
