@@ -69,7 +69,11 @@ More recently I have totally refactored the whole code base creating a geom libr
   
 Trilateral3 provides decoupling so that the data structure for holding triangles ( now nominanlly a interlaced Float32Array ) can be other structures. 
 
-Currently Trilateral has 2.5D WebGL examples, color and position animations, svg path width along the length color change or width change examples, and some Lime and Heap examples, trilateral3 has mostly been tested against web but should work in C++ on mobile. Kha support will be added on haxe 4.2 release.
+Currently Trilateral has 2.5D WebGL examples, color and position animations
+
+<img src="https://user-images.githubusercontent.com/20134338/84173295-fdd8e600-aa74-11ea-99b1-50f8cb8e4330.png" width="250">
+
+svg path width along the length color change or width change examples, and some Lime and Heap examples, trilateral3 has mostly been tested against web but should work in C++ on mobile. Kha support will be added on haxe 4.2 release.
   
 You can find documentation on the latest version:
 https://nanjizal.github.io/trilateral3/pages/
