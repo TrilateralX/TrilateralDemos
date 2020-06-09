@@ -58,15 +58,20 @@ Added some support for extrusion of shapes this is using modified armory Iron Kh
 <img src="https://user-images.githubusercontent.com/20134338/84172216-a8500980-aa73-11ea-91c9-246635b632a0.png" width="300">  
   
 Added support for rendering with extrusion hxTrueType parser.  
-  
+
+<img src="https://user-images.githubusercontent.com/20134338/84172731-40e68980-aa74-11ea-8308-935f8216aa95.png">
+    
 ### Trilateral3  
   
 More recently I have totally refactored the whole code base creating a geom library and splitting up and decoupling the parts of Trilateral. Using Module Static functions and hopefully clean and simple code Trilateral3 was born. Image and gradient support has not yet been re-added.
 
 <img src="https://user-images.githubusercontent.com/20134338/84171070-480c9800-aa72-11ea-99ea-dca81b5a9a4a.png" width="300">  
   
-Trilateral3 provides decoupling so that the data structure for holding triangles ( nominanlly a interlaced Float32Array ) can be other structures. 
+Trilateral3 provides decoupling so that the data structure for holding triangles ( now nominanlly a interlaced Float32Array ) can be other structures. 
 
-Currently Trilateral has 2.5D WebGL examples, color and position animations, svg path width along the length color change or width change examples, and some Lime and Heap examples. Kha will be added on haxe4.2 release.
+Currently Trilateral has 2.5D WebGL examples, color and position animations, svg path width along the length color change or width change examples, and some Lime and Heap examples, trilateral3 has mostly been tested against web but should work in C++ on mobile. Kha support will be added on haxe 4.2 release.
   
+You can find documentation on the latest version:
+https://nanjizal.github.io/trilateral3/pages/
 
+Project is still work in progress.
