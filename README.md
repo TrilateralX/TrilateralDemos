@@ -59,7 +59,7 @@ Added some support for extrusion of shapes this is using modified armory Iron Kh
   
 Added support for rendering with extrusion hxTrueType parser.  
 
-<img src="https://user-images.githubusercontent.com/20134338/84172731-40e68980-aa74-11ea-8308-935f8216aa95.png">
+<img src="https://user-images.githubusercontent.com/20134338/84172731-40e68980-aa74-11ea-8308-935f8216aa95.png" width="300">
     
 ### Trilateral3  
   
