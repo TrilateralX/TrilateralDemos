@@ -27,9 +27,26 @@ Simple 2D Kha demo.
 
 ### Trilateral
 
-Restructuring, Trilateral was born, with TrilateraXtra holding extras and TrilateralBazzar examples and I improved the svg support adding Ellipses.
+Restructuring, Trilateral was born. ( heaps toolkit render ).
+  
+<img src="https://user-images.githubusercontent.com/20134338/84169469-91f47e80-aa70-11ea-9d85-41615799d67a.png" width="200">
+  
+Using TrilateraXtra to for toolkit specific code and TrilateralBazzar for examples.
+
+I improved the svg data path support adding Ellipses.
 
 <img src="https://user-images.githubusercontent.com/20134338/84167836-9ddf4100-aa6e-11ea-9cc5-27cf7eaf2ade.png" width="300">
-
-
-
+  
+Adding images support so I could create my canvas jigsaw in WebGL or c++ Kha.  
+  
+<img src="https://user-images.githubusercontent.com/20134338/84168241-147c3e80-aa6f-11ea-9f6d-36c7cd6d7cb8.png" width="300">
+  
+Experimented with some FXG support  
+  
+<img src="https://user-images.githubusercontent.com/20134338/84168855-d29fc800-aa6f-11ea-9b0a-3e0865c21e9b.png" width="400">   
+   
+Supported an approach to gradients similar to the image approach of uv, where shape is plotted and then UV's applied.
+  
+<img src="https://user-images.githubusercontent.com/20134338/84169173-375b2280-aa70-11ea-9331-8dbafdba49fb.png" width="300">    
+  
+ 
